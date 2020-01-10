@@ -1,0 +1,32 @@
+.coverage*
+coverage/
+.buildinfo
+*.pyc
+.DS_Store
+user_settings.py
+settings.sh
+/log4j.properties
+
+# IntelliJ
+.idea/
+*.iml
+stdout
+
+# Java
+*.class
+target/
+build/
+/java/
+
+# Test output
+test-output/
+
+# Redis
+dump.rdb
+
+*.tgz
+*.gz
+
+pub.sh
+sub.sh
+

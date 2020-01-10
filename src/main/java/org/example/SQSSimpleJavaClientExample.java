@@ -38,10 +38,7 @@ public class SQSSimpleJavaClientExample {
     }
 
     final boolean publisher = StringUtils.compareIgnoreCase(args[0], "pub") == 0;
-
-    // "https://sqs.us-east-2.amazonaws.com/490273447617/SQS-tutorial";
     final String queueUrl = args[1];
-
     final int pollingDelay = Integer.parseInt(args[2]);
 
     System.out.println("==============================================");
